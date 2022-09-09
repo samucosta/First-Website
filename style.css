@@ -1,0 +1,68 @@
+/*Estilização do Corpo da Página*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma' , 'Arial';
+}
+/*Estilização da sessão HEADER da página*/
+header{
+
+    background:linear-gradient(to right,rgb(2,23,37), rgb(9,24,28),rgb(1,49,76));
+    height: 80px;
+    padding: 20px 0;
+    
+}
+/*Estilização da sessão NAV (navegação) da página*/
+nav{
+    position:absolute;
+    top: 70px;
+    right: 0px;
+    
+}
+
+nav li {
+    display: inline;
+    font-size: 19px;
+    margin: 0 0 0 35px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/*Estilização das listas da página*/
+ul{
+    margin: -60px 100px 0px 0px;
+    list-style: none;
+    color: aliceblue;
+
+}
+/*Estilização do logotipo*/
+.logo_caixa{
+
+    position:relative;
+    margin: auto;
+
+    
+}
+
+.logo{
+    margin: 10px 10px;
+    margin-top: -30px;
+}
+
+.banner{
+    width: 100%
+}
+h1{
+    font-family: 'Cardo',"Arial";
+}
